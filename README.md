@@ -1,46 +1,20 @@
+# HI Iam MD MEHEDI HASSAN
 
+## 1. JSX
+JSX হলো JavaScript-এর মধ্যে HTML-এর মতো সিনট্যাক্স। এটি UI বানানো সহজ করে এবং React-কে DOM আপডেট করতে সাহায্য করে।  
 
+## 2. State vs Props
+- **State:** কম্পোনেন্টের নিজস্ব ডেটা, পরিবর্তনযোগ্য।  
+- **Props:** প্যারেন্ট থেকে চাইল্ডে পাঠানো ডেটা, পরিবর্তনযোগ্য নয়।  
 
-## FAQ
+## 3. useState Hook
+`useState` হলো React হুক যা কম্পোনেন্টে state যোগ করে। এটি `[stateValue, setStateFunction]` রিটার্ন করে, যার মাধ্যমে state আপডেট করা যায়।  
 
-#### Question 1 : What is JSX, and why is it used?
+## 4. State Sharing Between Components
+State প্যারেন্ট কম্পোনেন্টে রাখা হয় এবং Props এর মাধ্যমে চাইল্ড কম্পোনেন্টে পাঠানো যায়। Context API বা Redux ব্যবহার করেও শেয়ার করা সম্ভব।  
 
-- Answer : -1.JSX is a syntax extension for JavaScript that lets you write HTML-like code directly within JavaScript, making it easier to create and visualize React components by combining structure and logic in a more intuitive way.
-
-#### Question 2 : What is the difference between State and Props?
-
-- Answer : **State** - Internal data that a component manages itself. Can be changed by the component.
-**Props** - External data passed from parent to child. Read-only for the child.
-
-**Simple analogy:**  
-State = Component's own memory  
-Props = Instructions given to component
-
-#### Question 3 :What is the useState hook, and how does it work?
-
-- Answer : **useState** adds state to functional components.
-
-**Syntax:** `const [value, setValue] = useState(initialValue);`
-
-**Usage:** `setValue(newValue)` updates the state and re-renders the component.
-
-#### Question 4 : How can you share state between components in React?
-- Answer : **Ways to share state between components:**
-
-1. **Lifting State Up** - Move state to common parent component
-2. **Props** - Pass state down from parent to child
-3. **Context API** - Share state across many components
-4. **State Management Libraries** - Redux, Zustand for complex apps
-
-**Most common:** Lift state to parent → pass via props to children
-
-#### Question 5 :How is event handling done in React?
-
-- Answer : **React Events:**
-- CamelCase: `onClick`, `onChange`
-- Pass function: `onClick={handleClick}`
-- Synthetic event object
-
-**Example:** `<button onClick={handleClick}>Click</button>`
-
+## 5. Event Handling in React
+JSX-এ ইভেন্ট attribute ব্যবহার করা হয়, যেমন:  
+```jsx
+<button onClick={handleClick}>Click Me</button>
 
