@@ -1,0 +1,92 @@
+[
+  {
+    "id": "#2001",
+    "title": "Account Locked - Unable to Sign In",
+    "description": "User reports account lock after multiple failed login attempts.",
+    "customer": "Alex Carter",
+    "priority": "Critical",
+    "status": "new",
+    "createdAt": "12/01/2024"
+  },
+  {
+    "id": "#2002",
+    "title": "Payment Gateway Timeout",
+    "description": "Transactions not processing due to timeout errors.",
+    "customer": "Maria Lopez",
+    "priority": "High",
+    "status": "new",
+    "createdAt": "12/02/2024"
+  },
+  {
+    "id": "#2003",
+    "title": "Invoice Email Not Received",
+    "description": "Client reports missing invoice email for February.",
+    "customer": "Ethan Walker",
+    "priority": "Medium",
+    "status": "new",
+    "createdAt": "12/03/2024"
+  },
+  {
+    "id": "#2004",
+    "title": "Profile Update Failure",
+    "description": "Users unable to update address information.",
+    "customer": "Grace Miller",
+    "priority": "Low",
+    "status": "new",
+    "createdAt": "12/04/2024"
+  },
+  {
+    "id": "#2005",
+    "title": "Mobile App Crash",
+    "description": "iOS app crashes when accessing settings page.",
+    "customer": "Daniel Harris",
+    "priority": "Critical",
+    "status": "new",
+    "createdAt": "12/05/2024"
+  },
+  {
+    "id": "#2006",
+    "title": "Refund Request Pending",
+    "description": "Refund not issued even after confirmation mail.",
+    "customer": "Sophia Clark",
+    "priority": "Medium",
+    "status": "new",
+    "createdAt": "12/06/2024"
+  },
+  {
+    "id": "#2007",
+    "title": "OTP Not Delivered",
+    "description": "User not receiving OTP for login.",
+    "customer": "Benjamin Hall",
+    "priority": "High",
+    "status": "new",
+    "createdAt": "12/07/2024"
+  },
+  {
+    "id": "#2008",
+    "title": "Profile Picture Upload Error",
+    "description": "System throws error while uploading image.",
+    "customer": "Emma Lewis",
+    "priority": "Low",
+    "status": "new",
+    "createdAt": "12/08/2024"
+  },
+  {
+    "id": "#2009",
+    "title": "Auto Renewal Glitch",
+    "description": "Subscription auto-renews even when disabled.",
+    "customer": "Matthew Young",
+    "priority": "Medium",
+    "status": "new",
+    "createdAt": "12/09/2024"
+  },
+  {
+    "id": "#2010",
+    "title": "No Order Confirmation SMS",
+    "description": "Customer did not receive SMS after placing order.",
+    "customer": "Ava Scott",
+    "priority": "Medium",
+    "status": "new",
+    "createdAt": "12/10/2024"
+  }
+]
